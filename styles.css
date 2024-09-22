@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+#employee-form {
+  display: flex;
+  margin: 1em;
+  padding: 0.5em;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  border: 2px solid black;
+}
+
+input:hover {
+  background-color: #808080;
+}
+
+h2 {
+  text-align: center;
+}
+
+#employee-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+th {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  text-align: center;
+}
